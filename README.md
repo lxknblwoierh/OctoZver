@@ -39,7 +39,7 @@ def Version(self):
     if f.text != version:
         print("version not match")
 ```
-Values set in config.cfg files is applyed only for work with this app. If you have diferent feed rates set in slicer then for printing will octoprint use settings from g-code!!  
+Values set in config.cfg files is applyed only for work with this app. If you have diferent feed rates set in slicer then for printing will octoprint use settings from g-code!!
   
 ## Print Screens with instruction  
   
@@ -78,3 +78,11 @@ There you have Fan speed screen. If you click one of 6 icon then you set percent
 <img src="https://github.com/Matejz90/OctoZver/blob/main/print_screen/fan_screen.png?raw=true" width="600" height="400" />  
 </p>  
   
+## License  
+For this app i WILL NOT PROVIDE ANY SOURCE CODE, NOR GUARANTEE AND APP IS LIKE IT IS because i want this app to work and look how i imagine in my head.  
+You can use app in commercial or personal purpose, but you are not allow to change code except config.cfg. 
+If you have problems with upper statement you are free to pass my app and use something else!  
+You can freely open issues, add suggestions, etc. on github or contact me with your issues on my email matejz90 @ gmail.com (without whitespace before and after @)  
+If comes to big problems with users or something else i will shut down my version server and app will be not working anymore (for all user).
+With app i don't collect any data nor IP-adresses or something else and app use online connection only for version check. 
+This app is writen for myself and i give chance to other people to use it!
