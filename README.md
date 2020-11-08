@@ -79,10 +79,10 @@ There you have Fan speed screen. If you click one of 6 icon then you set percent
 </p>  
   
 ## License  
-For this app i WILL NOT PROVIDE ANY SOURCE CODE, NOR GUARANTEE AND APP IS LIKE IT IS because i want this app to work and look how i imagine in my head.  
-You can use app in commercial or personal purpose, but you are not allow to change code except config.cfg. 
+For this app i WILL NOT PROVIDE ANY SOURCE CODE, NOR GUARANTEE AND APP IS LIKE IT IS because i want this app to work and look how i imagine in my head.    
+You can use app in commercial or personal purpose, but you are not allow to change code except config.cfg.  
 If you have problems with upper statement you are free to pass my app and use something else!  
 You can freely open issues, add suggestions, etc. on github or contact me with your issues on my email matejz90 @ gmail.com (without whitespace before and after @)  
-If comes to big problems with users or something else i will shut down my version server and app will be not working anymore (for all user).
-With app i don't collect any data nor IP-adresses or something else and app use online connection only for version check. 
-This app is writen for myself and i give chance to other people to use it!
+If comes to big problems with users or something else i will shut down my version server and app will be not working anymore (for all user).  
+With app i don't collect any data nor IP-adresses or something else and app use online connection only for version check.   
+This app is writen for myself and i give chance to other people to use it!  
