@@ -4,6 +4,8 @@ Minimalistic, powerfull and good looking app for controlling 3D printer. Work on
 <img src="https://github.com/Matejz90/OctoZver/blob/main/print_screen/start_screen.png?raw=true" width="600" height="400" />  
 </p>  
 Hello there. Because i didn't find any suitable app without glitches and bugs for controlling my printer with Octoprint and RPI 3B+ i wrote my own app.  
+Other solution writen in NodeJS made me only problems with my fat fingers because of drag&drop and solutions writen in proper way was not good because of too much functions and too small icons which i can't click on my 4' LCD display without pen.  
+  
 App is writen in Python 3.8.3 with Kivy 2.0.0rc4 and packed with pyinstaller for one exe file.  
 Because .exe must be decompressed from --onefile, app startup with slower PC-s can be up to 10-20s  
   
