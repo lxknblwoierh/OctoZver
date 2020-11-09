@@ -7,6 +7,7 @@ disable F1 key in kivy
 better FAN display (icon for fan off, on, spinning etc...)
 automatic updater  
 current clock/date with timezone  
+nice progress bar instead of numeric display
 animate some icons  
 boot screen  
 starting app without errors and better solution like it is (60-70 line)  
