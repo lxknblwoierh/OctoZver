@@ -42,7 +42,8 @@ def Version(self):
     if f.text != version:
         print("version not match")
 ```
-Values set in config.cfg files is applyed only for work with this app. If you have diferent feed rates set in slicer then for printing will octoprint use settings from g-code!!
+Values set in config.cfg files is applyed only for work with this app. If you have diferent feed rates set in slicer then for printing will octoprint use settings from g-code!!  
+If DLP plugin in octoprint and my app does not show layer count with some slicer (Slic3r, PrusaSlic3r...), you need to add in slicer [this solution](https://github.com/OllisGit/OctoPrint-DisplayLayerProgress/issues/102#issuecomment-569490240)
   
 ## Print Screens with instruction  
   
