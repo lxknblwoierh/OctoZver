@@ -1,5 +1,5 @@
 # OctoZver
-Minimalistic, powerfull and good looking app for controlling 3D printer. Work on RPI with 3.5' LCDs to 7', with Windows and with Linux  
+Minimalistic, powerfull and good looking app for controlling 3D printer. Work on RPI with 3.5' LCDs to 7'. Work also with Windows PC and with Linux PC  
 <p align="center">  
 <img src="https://github.com/Matejz90/OctoZver/blob/main/print_screen/start_screen.png?raw=true" width="600" height="400" />  
 </p>  
@@ -15,6 +15,9 @@ Because .exe must be decompressed from --onefile, app startup with slower PC-s c
 #### Windows:  
 Copy .exe and config.cfg to folder (C:\Program Files\OctoZver) or desktop (exe and cfg MUST be in same folder) and start app with double click (or make shortcut to desktop)  
 #### Rpi:  
+Because of touchscreen issues with Kivy i need few days that i get some Sandisk SD cards where i will be install new raspbian and pack together with modded Kivy config  
+##### RPI auto boot to app  
+  
 #### Ubuntu:  
 
 ### Requirements and imports:  
