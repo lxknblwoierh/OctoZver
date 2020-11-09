@@ -32,9 +32,9 @@ Because of touchscreen issues with Kivy i need few days that i get some Sandisk 
 [pandas=1.1.4](https://pypi.org/project/pandas/1.1.4/)  
   
 #### Notes  
-You need working octoprint and online connection. If your octoprint not working then app will also not work.  
-Because i want provide to everyone latest version with bugfixes i implement code that connect to my server and check version.  
-For now updater not work automatic and will you remind that you need newer version.  
+1.) You need working octoprint and online connection. If your octoprint not working then app will also not work.  
+2.) Because i want provide to everyone latest version with bugfixes i implement code that connect to my server and check version.  
+3.) For now updater not work automatic and will you remind that you need newer version.  
 ```
 def Version(self):
     link = "http://webpoint.si/version.txt"
@@ -42,8 +42,8 @@ def Version(self):
     if f.text != version:
         print("version not match")
 ```
-Values set in config.cfg files is applyed only for work with this app. If you have diferent feed rates set in slicer then for printing will octoprint use settings from g-code!!  
-If DLP plugin in octoprint and my app does not show layer count with some slicer (Slic3r, PrusaSlic3r...), you need to add in slicer [this solution](https://github.com/OllisGit/OctoPrint-DisplayLayerProgress/issues/102#issuecomment-569490240)
+4.) Values set in config.cfg files is applyed only for work with this app. If you have diferent feed rates set in slicer then for printing will octoprint use settings from g-code!!  
+5.) If DLP plugin in octoprint and my app does not show layer count with some slicer (Slic3r, PrusaSlic3r...), you need to add in slicer [this solution](https://github.com/OllisGit/OctoPrint-DisplayLayerProgress/issues/102#issuecomment-569490240)
   
 ## Print Screens with instruction  
   
@@ -83,10 +83,10 @@ There you have Fan speed screen. If you click one of 6 icon then you set percent
 </p>  
   
 ## License  
-For this app i WILL NOT PROVIDE ANY SOURCE CODE, NOR GUARANTEE AND APP IS LIKE IT IS because i want this app to work and look how i imagine in my head.    
-You can use app in commercial or personal purpose, but you are not allow to change code except config.cfg.  
-If you have problems with upper statement you are free to pass my app and use something else!  
-You can freely open issues, add suggestions, etc. on github or contact me with your issues on my email matejz90 @ gmail.com (without whitespace before and after @)  
-If comes to big problems with users or something else i will shut down my version server and app will be not working anymore (for all user).  
-With app i don't collect any data nor IP-adresses or something else and app use online connection only for version check.   
-This app is writen for myself and i give chance to other people to use it!  
+1.) For this app i WILL NOT PROVIDE ANY SOURCE CODE, NOR GUARANTEE AND APP IS LIKE IT IS because i want this app to work and look how i imagine in my head.    
+2.) You can use app in commercial or personal purpose, but you are not allow to change code except config.cfg.  
+3.) If you have problems with upper statement you are free to pass my app and use something else!  
+4.) You can freely open issues, add suggestions, etc. on github or contact me with your issues on my email matejz90 @ gmail.com (without whitespace before and after @)  
+5.) If comes to big problems with users or something else i will shut down my version server and app will be not working anymore (for all user).  
+6.) With app i don't collect any data nor IP-adresses or something else and app use online connection only for version check.   
+7.) This app is writen for myself and i give chance to other people to use it!  
