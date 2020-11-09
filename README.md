@@ -24,7 +24,7 @@ Because of touchscreen issues with Kivy i need few days that i get some Sandisk 
 --- You need to install ---  
 [Octoprint](https://github.com/OctoPrint/OctoPrint) with [DisplayLayerProgress plugin](https://github.com/OllisGit/OctoPrint-DisplayLayerProgress)  
     
---- You don't need to install packages bellow (it's only for version check if is what broken) ---  
+--- You don't need to install packages bellow (it's only for version check if is something broken) ---  
 [Python 3.8.3](https://www.python.org/downloads/release/python-383/)  
 [Kivy 2.0.0rc4](https://pypi.org/project/Kivy/2.0.0rc4/)  
 [matplotlib=3.3.2](https://pypi.org/project/matplotlib/3.3.2/)  
@@ -32,7 +32,7 @@ Because of touchscreen issues with Kivy i need few days that i get some Sandisk 
 [pandas=1.1.4](https://pypi.org/project/pandas/1.1.4/)  
   
 #### Notes  
-1.) You need working octoprint and online connection. If your octoprint not working then app will also not work.  
+1.) You need working octoprint and online connection. If your octoprint is not working then app also not work.  
 2.) Because i want provide to everyone latest version with bugfixes i implement code that connect to my server and check version.  
 3.) For now updater not work automatic and will you remind that you need newer version.  
 ```
