@@ -23,7 +23,7 @@ automatic installer script in linux and windows
 setup screen for first time install  
 background changer  
 setting menu (what will be included i dont know yet)  
-better interaction in files screen (slider, clicking, debugging)  
+better interaction in files screen (~~slider~~, clicking, debugging)  
 more data about file in files screen  
 ~~icons insead of buttons (long term plan)~~  
 camera  
