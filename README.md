@@ -17,6 +17,23 @@ Copy .exe and config.cfg to folder (C:\Program Files\OctoZver) or desktop (exe a
 #### Rpi:  
 Because of touchscreen issues with Kivy i need few days that i get some Sandisk SD cards where i will be install new raspbian and pack together with modded Kivy config  
 ##### RPI auto boot to app  
+Execute: ```sudo nano /etc/systemd/system/octozver.service``` and copy in this file:   
+```
+[Unit] 
+Description=The snappy LCD interface for your 3D printer 
+After=network-online.target 
+Wants=network-online.target 
+[Service] 
+Type=simple 
+User=pi 
+WorkingDirectory=/home/pi/test/
+ExecStart=python3 /home/pi/test/test.py 
+Restart=always 
+RestartSec=5 
+Nice=-2 
+[Install]
+WantedBy=multi-user.target
+```
   
 #### Ubuntu:  
 
