@@ -34,6 +34,7 @@ Nice=-2
 [Install]
 WantedBy=multi-user.target
 ```
+Then you need to execute ```sudo systemctl enable octozver.service```  
   
 #### Ubuntu:  
 
