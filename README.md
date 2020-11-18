@@ -26,18 +26,20 @@ and
 ##### RPI auto boot to app  
 Execute: ```sudo nano /etc/systemd/system/octozver.service``` and copy in this file:   
 ```
-[Unit] 
-Description=The snappy LCD interface for your 3D printer 
-After=network-online.target 
-Wants=network-online.target 
-[Service] 
-Type=simple 
-User=pi 
+[Unit]
+Description=The snappy LCD interface for your 3D printer
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=pi
 WorkingDirectory=/home/pi/test/
-ExecStart=python3 /home/pi/test/test.py 
-Restart=always 
-RestartSec=5 
-Nice=-2 
+ExecStart=/home/pi/test/test
+Restart=always
+RestartSec=5
+Nice=-2
+
 [Install]
 WantedBy=multi-user.target
 ```
