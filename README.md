@@ -4,7 +4,7 @@ Minimalistic, powerfull and good looking app for controlling 3D printer. Work on
 <img src="https://github.com/Matejz90/OctoZver/blob/main/print_screen/start_screen.png?raw=true" width="600" height="400" />  
 </p>  
   
-[Download there](https://github.com/Matejz90/OctoZver/releases/tag/v0.0.1)  
+<p align="center">[Download there](https://github.com/Matejz90/OctoZver/releases/tag/v0.0.1)</p>
   
 Hello there.  
   
