@@ -16,6 +16,7 @@ Because .exe must be decompressed from --onefile, app startup with slower PC-s c
 Copy .exe and config.cfg to folder (C:\Program Files\OctoZver) or desktop (exe and cfg MUST be in same folder) and start app with double click (or make shortcut to desktop)  
 #### Rpi:  
 Download app and config.cfg from github and save to folder (for example ```/pi/home/octoZver```)  
+Dont forget chmod octoZver file ```sudo chmod +x octoZver```  
 If you want start direct with terminal then don't forget cd to your folder (expample ```cd /pi/home/octoZver/```)  
 Start app with ```./octoZver``` (```./pi/home/octoZver/octoZver```)  
 
