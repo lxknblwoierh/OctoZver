@@ -16,11 +16,11 @@ Because .exe must be decompressed from --onefile, app startup with slower PC-s c
 Copy .exe and config.cfg to folder (C:\Program Files\OctoZver) or desktop (exe and cfg MUST be in same folder) and start app with double click (or make shortcut to desktop)  
 #### Rpi:  
 1.) Download app and config.cfg from github and save to folder (for example ```/pi/home/octoZver```)  
-2.) Don't forget chmod octoZver file ```sudo chmod +x appOctoZver``` or ```sudo chmod +x /pi/home/octoZver/appOctoZver```  
+2.) Don't forget chmod octoZver file ```sudo chmod +x appOctoZverRpi``` or ```sudo chmod +x /pi/home/octoZver/appOctoZverRpi```  
 3.) Edit config.cfg with text editor ```sudo nano config.cfg``` or ```sudo nano /pi/home/octoZver/config.cfg```  
   
 If you want start app with terminal then don't forget cd to your folder (exsample ```cd /pi/home/octoZver/```)  
-Start app with ```./appOctoZver``` (```./pi/home/octoZver/appOctoZver```)  
+Start app with ```./appOctoZverRpi``` (```./pi/home/octoZver/appOctoZverRpi```)  
 
 Maybe you will need some dependencies packages (sdl12) - try start app first and then you will see if needed:  
   
@@ -32,15 +32,15 @@ and
 Execute: ```sudo nano /etc/systemd/system/octozver.service``` and copy in this file:   
 ```
 [Unit]
-Description=The snappy LCD interface for your 3D printer
+Description=Let's print!
 After=network-online.target
 Wants=network-online.target
 
 [Service]
 Type=simple
 User=pi
-WorkingDirectory=/home/pi/test/
-ExecStart=/home/pi/test/test
+WorkingDirectory=/home/pi/octoZver/
+ExecStart=/home/pi/octoZver/appOctoZverRpi
 Restart=always
 RestartSec=5
 Nice=-2
