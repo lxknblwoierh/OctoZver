@@ -17,7 +17,7 @@ Copy .exe and config.cfg to folder (C:\Program Files\OctoZver) or desktop (exe a
 #### Rpi:  
 1.) Download app and config.cfg from github and save to folder (for example ```/pi/home/octoZver```)  
 2.) Don't forget chmod octoZver file ```sudo chmod +x octoZver``` or ```sudo chmod +x /pi/home/octoZver/octoZver```  
-3.) Edit config.cfg with text editor ```sudo nano config.cfg``` or ```sudo nano /pi/home/octoZver/config.cfg)```  
+3.) Edit config.cfg with text editor ```sudo nano config.cfg``` or ```sudo nano /pi/home/octoZver/config.cfg```  
   
 If you want start app with terminal then don't forget cd to your folder (exsample ```cd /pi/home/octoZver/```)  
 Start app with ```./octoZver``` (```./pi/home/octoZver/octoZver```)  
