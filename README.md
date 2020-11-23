@@ -21,12 +21,6 @@ Copy .exe and config.cfg to folder (C:\Program Files\OctoZver) or desktop (exe a
   
 If you want start app with terminal then don't forget cd to your folder (exsample ```cd /pi/home/octoZver/```)  
 Start app with ```./appOctoZverRpi``` (```./pi/home/octoZver/appOctoZverRpi```)  
-
-Maybe you will need some dependencies packages (sdl12) - try start app first and then you will see if needed:  
-  
-```sudo apt install pkg-config libgl1-mesa-dev libgles2-mesa-dev python3-setuptools libgstreamer1.0-dev git-core gstreamer1.0-plugins-{bad,base,good,ugly} gstreamer1.0-{omx,alsa} python3-dev libmtdev-dev xclip xsel libjpeg-dev libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev libsdl2-ttf-dev libatlas-base-dev```  
-and  
-```python3 -m pip install --upgrade --user Cython==0.29.21 pillow```  
   
 ##### RPI auto boot to app  
 Execute: ```sudo nano /etc/systemd/system/octozver.service``` and copy in this file:   
@@ -49,19 +43,13 @@ Nice=-2
 WantedBy=multi-user.target
 ```
 Then you need to execute ```sudo systemctl enable octozver.service```  
+If you edited file then you need execute ```systemctl daemon-reload``` and before is recommend stop service with ```sudo systemctl stop octozver.service```  
   
 #### Ubuntu:  
 
 ### Requirements and imports:  
 --- You need to install ---  
 [Octoprint](https://github.com/OctoPrint/OctoPrint) with [DisplayLayerProgress plugin](https://github.com/OllisGit/OctoPrint-DisplayLayerProgress)  
-    
---- You don't need to install packages bellow (it's only for version check if is something broken) ---  
-[Python 3.8.3](https://www.python.org/downloads/release/python-383/)  
-[Kivy 2.0.0rc4](https://pypi.org/project/Kivy/2.0.0rc4/)  
-[matplotlib=3.3.2](https://pypi.org/project/matplotlib/3.3.2/)  
-[numpy==1.19.3](https://pypi.org/project/numpy/1.19.3/)  
-[pandas=1.1.4](https://pypi.org/project/pandas/1.1.4/)  
   
 #### Notes  
 1.) You need working octoprint and online connection. If your octoprint is not working then app also not work.  
