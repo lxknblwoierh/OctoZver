@@ -15,12 +15,14 @@ Because .exe must be decompressed from --onefile, app startup with slower PC-s c
 #### Windows:  
 Copy .exe and config.cfg to folder (C:\Program Files\OctoZver) or desktop (exe and cfg MUST be in same folder) and start app with double click (or make shortcut to desktop)  
 #### Rpi:  
-Download app and config.cfg from github and save to folder (for example ```/pi/home/octoZver```)  
-Dont forget chmod octoZver file ```sudo chmod +x octoZver```  
-If you want start direct with terminal then don't forget cd to your folder (expample ```cd /pi/home/octoZver/```)  
+1.) Download app and config.cfg from github and save to folder (for example ```/pi/home/octoZver```)  
+2.) Don't forget chmod octoZver file ```sudo chmod +x octoZver``` or ```sudo chmod +x /pi/home/octoZver/octoZver```
+3.) Edit config.cfg with text editor ```sudo nano config.cfg``` or ```sudo nano /pi/home/octoZver/config.cfg)```  
+  
+If you want start app with terminal then don't forget cd to your folder (exsample ```cd /pi/home/octoZver/```)  
 Start app with ```./octoZver``` (```./pi/home/octoZver/octoZver```)  
 
-Maybe you will need some dependencies packages (sdl12):  
+Maybe you will need some dependencies packages (sdl12) - try start app first and then you will see if needed:  
   
 ```sudo apt install pkg-config libgl1-mesa-dev libgles2-mesa-dev python3-setuptools libgstreamer1.0-dev git-core gstreamer1.0-plugins-{bad,base,good,ugly} gstreamer1.0-{omx,alsa} python3-dev libmtdev-dev xclip xsel libjpeg-dev libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev libsdl2-ttf-dev libatlas-base-dev```  
 and  
