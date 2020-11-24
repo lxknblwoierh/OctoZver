@@ -56,6 +56,10 @@ If you edited file then you need execute ```systemctl daemon-reload``` and befor
 --- You need to install ---  
 [Octoprint](https://github.com/OctoPrint/OctoPrint) with [DisplayLayerProgress plugin](https://github.com/OllisGit/OctoPrint-DisplayLayerProgress)  
   
+-- If you use one of slic3r (slic3r, prusaslice, superslicer) --  
+Go to Printer Settings and in Custom G-Code in field Before layer change G-code add:  
+```;BEFORE_LAYER_CHANGE```  
+  
 #### Notes  
 1.) You need working octoprint and online connection. If your octoprint is not working then app also not work.  
 2.) Because i want provide to everyone latest version with bugfixes i implement code that connect to my server and check version.  
