@@ -15,12 +15,14 @@ App is writen in Python 3.8.3 with Kivy 2.0.0rc4 and packed with pyinstaller for
 Because .exe must be decompressed from --onefile, app startup with slower PC-s can be up to 10-20s  
   
 ### Install:  
-#### Windows:  
-Copy .exe and config.cfg to folder (C:\Program Files\OctoZver) or desktop (exe and cfg MUST be in same folder) and start app with double click (or make shortcut to desktop)  
+#### Windows: 
+1.)Download file and unzip it.  
+2.)Copy .exe and config.cfg to folder (C:\Program Files\OctoZver) or desktop (exe and cfg MUST be in same folder) and start app with double click (or make shortcut to desktop)  
 #### Rpi:  
 1.) Download app and config.cfg from github and save to folder (for example ```/pi/home/octoZver```)  
-2.) Don't forget chmod octoZver file ```sudo chmod +x appOctoZverRpi``` or ```sudo chmod +x /pi/home/octoZver/appOctoZverRpi```  
-3.) Edit config.cfg with text editor ```sudo nano config.cfg``` or ```sudo nano /pi/home/octoZver/config.cfg```  
+2.) cd to folder and execute unzip with ```/unzip octoZverRpi.zip```
+3.) Don't forget chmod octoZver file ```sudo chmod +x appOctoZverRpi``` or ```sudo chmod +x /pi/home/octoZver/appOctoZverRpi```  
+4.) Edit config.cfg with text editor ```sudo nano config.cfg``` or ```sudo nano /pi/home/octoZver/config.cfg```  
   
 If you want start app with terminal then don't forget cd to your folder (exsample ```cd /pi/home/octoZver/```)  
 Start app with ```./appOctoZverRpi``` (```./pi/home/octoZver/appOctoZverRpi```)  
