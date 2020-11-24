@@ -57,7 +57,7 @@ If you edited file then you need execute ```systemctl daemon-reload``` and befor
 [Octoprint](https://github.com/OctoPrint/OctoPrint) with [DisplayLayerProgress plugin](https://github.com/OllisGit/OctoPrint-DisplayLayerProgress)  
   
 -- If you use one of slic3r (slic3r, prusaslice, superslicer) --  
-Go to Printer Settings and in Custom G-Code in field Before layer change G-code add:  
+Go to Printer Settings and select Custom G-Code. In field Before layer change G-code add:  
 ```;BEFORE_LAYER_CHANGE```  
   
 #### Notes  
