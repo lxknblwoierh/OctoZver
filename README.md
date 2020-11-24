@@ -1,5 +1,5 @@
 # OctoZver
-Minimalistic, powerfull and good looking app for controlling 3D printer. Work on RPI with 3.5' LCDs to 7'. Work also with Windows PC and with Linux PC  
+Minimalistic, powerfull and good looking app for controlling 3D printer. Work on RPI with 3.5' LCDs to 7' with min 800x480 resolution. Work also with Windows PC and with Linux PC  
 <p align="center">  
 <img src="https://github.com/Matejz90/OctoZver/blob/main/print_screen/start_screen.png?raw=true" width="600" height="400" />  
 </p>  
